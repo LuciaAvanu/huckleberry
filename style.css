@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html,
@@ -12,7 +12,6 @@ body {
 /* Add styles here! */
 body {
   line-height: 1.5;
-  
 }
 
 header {
@@ -25,7 +24,12 @@ header {
 h1 {
   font-size: 2rem;
 }
-
+.introduction {
+  max-width: 350px;
+}
+.motto{
+  max-width: 300px;
+}
 strong {
   color: hsl(160deg, 100%, 30%);
 }
@@ -36,10 +40,11 @@ main {
 }
 
 main h2 {
-  margin-top: 0;
   background-color: hsl(45deg, 100%, 50%);
   border-bottom: 5px solid hsl(45deg, 100%, 40%);
+  margin-top: 0;
   width: 95%;
+  max-width: 400px;
   padding: 8px 24px;
   font-size: 1.25rem;
 }
@@ -50,6 +55,6 @@ main h2 {
   border-bottom: 5px solid hsl(0deg, 0%, 60%);
 }
 
-.card p{
+.card p {
   padding: 0 24px;
 }
