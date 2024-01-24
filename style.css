@@ -8,6 +8,9 @@ body {
   margin: 0;
   padding: 0;
 }
+html {
+  width: 100%;
+}
 
 /* Add styles here! */
 body {
@@ -16,9 +19,11 @@ body {
 
 header {
   padding: 40 20px;
-  border: 1px solid;
-  border-bottom: 5px solid hsl(0deg, 0%, 60%);
   background-color: white;
+  width: 100%;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
@@ -27,7 +32,7 @@ h1 {
 .introduction {
   max-width: 350px;
 }
-.motto{
+.motto {
   max-width: 300px;
 }
 strong {
@@ -36,6 +41,7 @@ strong {
 
 main {
   background-color: hsl(0deg, 0%, 40%);
+  border-top: 5px solid hsl(0deg, 0%, 60%);
   padding: 40px 0;
 }
 
@@ -44,7 +50,7 @@ main h2 {
   border-bottom: 5px solid hsl(45deg, 100%, 40%);
   margin-top: 0;
   width: 95%;
-  max-width: 400px;
+  max-width: max-content;
   padding: 8px 24px;
   font-size: 1.25rem;
 }
@@ -53,8 +59,15 @@ main h2 {
   background-color: white;
   padding-top: 8px;
   border-bottom: 5px solid hsl(0deg, 0%, 60%);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card p {
   padding: 0 24px;
+}
+
+.indented-heading{
+  margin-left: -8px;
 }
